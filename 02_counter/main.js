@@ -1,7 +1,7 @@
 let count=0;
 // function plus(){
 //     count++;
-//     document.getElementById("count").innerText=count;
+//     document.getElementById("result").innerText=count;
 // }
 // const resultH1=document.getElementsByTagName("h1")[0];
 // const plusButton=document.getElementsByTagName("button");
@@ -15,25 +15,33 @@ const resultH1=document.getElementById("result");
 // const plusButton=document.querySelector("plusButton");
 // plusButton.addEventListener("click", plus);
 // function plus(){
-//     conut++;
-//     // conut+=1;
-//     // conut+=conut+1;
-//     resultH1.innerHTMl=conut;
+//     count++;
+//     // count+=1;
+//     // count+=count+1;
+//     resultH1.innerHTMl=count;
 // }
 // plusButton.addEventListener("click", ()=> {
-//     conut++;
-//     resultH1.innerHTMl=conut;
+//     count++;
+//     resultH1.innerHTMl=count;
 // });
 // plusButton.onclick=()=>{
-//     conut++;
-//     resultH1.innerHTMl=conut;
+//     count++;
+//     resultH1.innerHTMl=count;
 // }
 // const plus=()=>{
-//     conut++;
-//     resultH1.innerHTML=conut;
+//     count++;
+//     resultH1.innerHTML=count;
 // }
-resultH1.innerHTML=conut;
+resultH1.innerHTML=count;
 function plus(){
-    conut++;
-    resultH1.innerHTML=conut;
+    count++;
+    resultH1.innerHTML=count;
+}
+function plusTwo(){
+    count+=2;
+    resultH1.innerHTML=count;
+}
+function minus(){
+    count--;
+    resultH1.innerHTML=count;
 }
