@@ -9,7 +9,11 @@ function plus(){
 // const plusButton=document.querySelectorAll("button");
 // const resultH1=document.querySelector("h1");
 // const plusButton=document.querySelector("button");
-// let conut=0;
+const resultH1=document.getElementById("result");
+// const resultH1=document.querySelector("#result");
+const plusButton=document.getElementById("plusButton");
+// const plusButton=document.querySelector("plusButton");
+let conut=0;
 // plusButton.addEventListener("click", plus);
 // function plus(){
 //     conut++;
@@ -21,10 +25,10 @@ function plus(){
 //     conut++;
 //     resultH1.innerHTMl=conut;
 // });
-// plusButton.onclick=()=>{
-//     conut++;
-//     resultH1.innerHTMl=conut;
-// }
+plusButton.onclick=()=>{
+    conut++;
+    resultH1.innerHTMl=conut;
+}
 // const plus=()=>{
 //     conut++;
 //     resultH1.innerHTML=conut;
