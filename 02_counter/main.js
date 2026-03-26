@@ -33,15 +33,23 @@ const resultH1=document.getElementById("result");
 //     resultH1.innerHTML=count;
 // }
 resultH1.innerHTML=count;
-function plus(){
-    count++;
+function plus(num=1){
+    count+=num;
     resultH1.innerHTML=count;
 }
-function plusTwo(){
-    count+=2;
-    resultH1.innerHTML=count;
-}
-function minus(){
-    count--;
-    resultH1.innerHTML=count;
-}
+// function plus(num){
+//     count+=num;
+//     resultH1.innerHTML=count;
+// }
+// function plus(){
+//     count++;
+//     resultH1.innerHTML=count;
+// }
+// function plusTwo(){
+//     count+=2;
+//     resultH1.innerHTML=count;
+// }
+// function minus(){
+//     count--;
+//     resultH1.innerHTML=count;
+// }
