@@ -7,3 +7,6 @@ npm create vite@latest .
 ```
 
 ### CounterApp
+- `useState(초기값)`
+- `onClick={()=>set함수(바꿀값)}`
+- `onClick={()=>set함수((이전 state)=>이전 state + 1)}`
