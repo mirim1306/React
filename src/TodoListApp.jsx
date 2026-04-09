@@ -2,18 +2,22 @@ function TodoListApp(){
     return (
         <div>
             <h1>HyeonDo List</h1>
-            <form>
+            <from>
                 <input type="text"/>
-                <button>Add</button>
-            </form>
+                <button type="submit">Add</button>
+            </from>
             <ul>
                 <li>
-                    <input type="check"/>
-                    <label>
-                        <span>
-                            <p></p>
-                        </span>
-                    </label>
+                    <input type="checkbox" id="chk-1"/>
+                    <label htmlFor="chk-1">지각하기</label>
+                    <button>✏️</button>
+                    <button>❌</button>
+                </li>
+                <li>
+                    <input type="checkbox" id="chk-2"/>
+                    <label htmlFor="chk-2">롤체 in down</label>
+                    <button>✏️</button>
+                    <button>❌</button>
                 </li>
             </ul>
         </div>
