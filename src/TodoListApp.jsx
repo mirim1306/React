@@ -15,7 +15,7 @@ function TodoListApp(){
                 </li>
                 <li>
                     <input type="checkbox" id="chk-2"/>
-                    <label htmlFor="chk-2">롤체 in down</label>
+                    <label htmlFor="chk-2">롤체 in dawn</label>
                     <button>✏️</button>
                     <button>❌</button>
                 </li>
