@@ -32,11 +32,17 @@ function TodoListApp() {
             )
         )
     }
+    function deleteTodo(id){
+        // todos에서 하나씩 꺼내어 todo의 id가 다른 todo만 남기자
+        setTodos((todos)=>
+            todos.filter((todo)=>todo.id !== id)
+        )
+    }
     return (
         <div className="todo">
             <TodoHeader/>
             <TodoAdder addTodo={addTodo}/>
-            <TodoList todos={todos} toggleTodo={toggleTodo}/>
+            <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo}/>
         </div>
     )
 }
