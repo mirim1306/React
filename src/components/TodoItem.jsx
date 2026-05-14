@@ -30,6 +30,7 @@ export default function TodoItem({todo, toggleTodo, deleteTodo, editTodo}) {
                 <Checkbox 
                     id={todo.id}
                     onChange={()=>toggleTodo(todo.id)}
+                    checked={todo.isCompleted}
                 >{todo.text}</Checkbox>
             }
             {/* 수정중이면 */}
